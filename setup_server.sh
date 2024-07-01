@@ -90,7 +90,7 @@ fi
 # Install Drush globally
 print_message "Installing Drush globally"
 # Install Drush using Composer.
-composer global require drush/drush
+composer global require drush/drush:10.6.*
 # Making drush as global command
 sudo ln -s ~/.config/composer/vendor/bin/drush /usr/local/bin/drush
 
